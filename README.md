@@ -71,7 +71,10 @@ After some time, your dashboards will start working.
 Trying to just smooth things over as I work with this.
 
 ## How to use it
-Analytics > Dashboard 
+In Kibana go to Analytics > Dashboard and just click the dashboard you want. 
+
+You should now have some dashboards along the lines of the screenshot below:
+
 ![opnsense-telegraf-kibana-system-dashboard](opnsense-telegraf-kibana-system-dashboard.png "opnsense-telegraf-kibana-system-dashboard")
 
 
