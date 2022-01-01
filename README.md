@@ -1,7 +1,7 @@
 ![opnsense-telegraf-kibana-dashboards](opnsense-telegraf-kibana-dashboards.png "opnsense-telegraf-kibana-dashboards")
-# OPNsense Telegraf Kibana  Dashboards
+# OPNsense Telegraf Kibana Dashboards
 
-Here are dashboards for Kibana from the Elastic Stack, which you can use to visualize the different outputs from the Telegraf plugin in OPNsense
+Here are dashboards for Kibana from the Elastic Stack, which you can use to visualize the different outputs from the Telegraf plugin in OPNsense.
 
 ## Prerequisites
 
@@ -10,10 +10,10 @@ OPNsense
 - os-telegraf 1.12.3
 
 Elastic Stack:
-- kibana 7.15.0
-- elasticsearch 7.15.0
+- kibana 7.16.0
+- elasticsearch 7.16.0
 
-## Installation:
+## Installation
 ### Configure Elasticsearch
 Create a user with Role permissions to create Indicies in Elasticsearch. You can do this through Kibana. 
 
@@ -31,7 +31,6 @@ Under Index privileges add Indicies as custom option:
 
 With these Privileges: 
 - all
-
 *- write*
 *- delete*
 *- manage*
@@ -58,7 +57,10 @@ Use `start_time` as Timestamp field. Select Create index pattern.
 
 Import the dashboards through Kibana (Stack Management > Kibana > Saved Objects > "Import")
 
-- dashboards/zenarmor-dashboard-blocks-7.15.0.ndjson
+- dashboards/opnsense-dashboard-telegraf-network-7.16.0.ndjson
+- dashboards/opnsense-dashboard-telegraf-suricata-7.16.0.ndjson
+- dashboards/opnsense-dashboard-telegraf-system-7.16.0.ndjson
+
 
 
 After each consequent import, you'll notice you have some overwrites - but that is only the tags beiing overwritten.
@@ -68,7 +70,7 @@ After some time, your dashboards will start working.
 
 Trying to just smooth things over as I work with this.
 
-## How to use it:
+## How to use it
 
 Analytics > Dashboard 
 
