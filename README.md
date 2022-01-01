@@ -68,6 +68,8 @@ Trying to just smooth things over as I work with this.
 
 ## How to use it
 Analytics > Dashboard 
+![opnsense-telegraf-kibana-system-dashboard](opnsense-telegraf-kibana-system-dashboard.png "opnsense-telegraf-kibana-system-dashboard")
+
 
 ## Contributing
 There are many ways to contribute:
