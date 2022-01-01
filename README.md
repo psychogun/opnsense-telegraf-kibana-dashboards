@@ -1,10 +1,14 @@
 ![opnsense-telegraf-kibana-dashboards](opnsense-telegraf-kibana-dashboards.png "opnsense-telegraf-kibana-dashboards")
 # OPNsense Telegraf Kibana Dashboards
 
-Here are dashboards for Kibana from the Elastic Stack, which you can use to visualize the different outputs from the Telegraf plugin in OPNsense.
+Here are dashboards for Kibana from the Elastic Stack, which you can use to visualize the different outputs from the Telegraf plugin in OPNsense:
+
+- network metrics
+- suricata events
+- system metrics
+
 
 ## Prerequisites
-
 OPNsense
 - OPNsense 21.7.7-amd64
 - os-telegraf 1.12.3
